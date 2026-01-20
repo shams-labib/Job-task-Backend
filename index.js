@@ -24,6 +24,7 @@ const News = mongoose.model(
     country: String,
   }),
 );
+// Applyed
 
 app.get("/api/news", async (req, res) => {
   const { country, category } = req.query;
